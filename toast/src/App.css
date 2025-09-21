@@ -1,0 +1,19 @@
+.button-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.button-grid{
+    display:grid;
+    grid-template-columns: repeat(2,250px);
+    gap:8px;
+}
+
+.button-grid button{
+    height: 50px;
+    cursor: pointer;
+    font-weight: 300;
+}
